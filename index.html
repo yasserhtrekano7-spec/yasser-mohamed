@@ -31,6 +31,15 @@
             padding-bottom: 20px;
             margin-bottom: 25px;
         }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #ff9800;
+            object-fit: cover;
+            margin-bottom: 15px;
+            background-color: #333; /* لون احتياطي لو الصورة مش موجودة */
+        }
         h1 {
             color: #ff9800;
             font-size: 2.2rem;
@@ -87,6 +96,8 @@
 
     <div class="container">
         <header>
+            <!-- السطر ده هو اللي بيعرض الصورة. اسم الملف لازم يكون 'yasser-mohamed.jpg' ومرفوع في نفس المكان -->
+            <img src="yasser-mohamed.jpg" alt="ياسر محمد - شيف هتريكانو" class="profile-img">
             <h1>ياسر محمد</h1>
             <div class="nickname">(الشهير بـ ياسر هتريكانو)</div>
             <div class="title">شيف انترناشيونال | International Chef</div>
